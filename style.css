@@ -1,0 +1,62 @@
+.wrapper {
+    background-image: url(1.jpg);
+    height: 61.09em;
+    background-size: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.block {
+    display: flex;
+    width: 190px;
+    justify-content: center;
+    border: 1px solid;
+    color: #b1b1b1;
+    font-size: 18px;
+}
+
+.header{
+    height: 100px;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+    gap: 21.5px 0;
+    height: 132px;
+    font-family: "ofont.ru_Borsok";
+}
+
+.main{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    gap: 68px 40px;
+    margin-top: 60px;
+}
+
+.card{
+    width: 275px;
+    height: 325px;
+    background: black;
+    margin: 0 auto;
+    margin: 0;
+    color: #b1b1b1;
+}
+
+.block.another {
+    margin-left: 102px;
+}
+
+@font-face {
+    font-family: "ofont.ru_Borsok"; 
+    src: url("ofont.ru_Borsok.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
