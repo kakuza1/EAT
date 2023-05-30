@@ -1,8 +1,8 @@
-let btns = document.querySelectorAll(".block");
+let sound = document.getElementById("Sound");
+let container = document.getElementById("header");
 
-btns.forEach(function(btn) {
-  btn.addEventListener("mouseenter", function(event) {
-    let sound = document.getElementById("Sound");
+container.addEventListener("mouseover", function(event) {
+  if (event.target.classList.contains("block")) {
     sound.play();
-  });
+  }
 });
