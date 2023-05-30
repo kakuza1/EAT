@@ -10,31 +10,37 @@ body{
 }
 .block {
     display: flex;
-    width: 190px;
+    width: 90px;
     justify-content: center;
-    border: 3px solid;
+    border: 5px dotted;
     color: #b1b1b1;
     font-size: 18px;
-    border-radius: 10px;
+    border-radius: 100%;
+    font-size: 30px;
+    border-color: #ffffff00;
+    height: 90px;
+    transition: 1s;
+    align-items: center;
 }
 
 .block:hover{
     color: rgb(255 255 255 / 90%);
     box-shadow: 0 0 30px rgb(255, 255, 255);
+    border-color: rgb(255 255 255 / 90%);
+    transition: 1s;
 }
 
 .header{
-    height: 100px;
     display: flex;
     color: white;
     flex-wrap: wrap;
-    width: 410px;
+    width: 710px;
     margin: 0 auto;
     justify-content: space-between;
     align-content: center;
     gap: 21.5px 0;
     height: 150px;
-    font-family: "ofont.ru_Borsok";
+    font-family: "ofont.ru_Riffic";
 }
 
 .main{
@@ -56,13 +62,9 @@ body{
     color: #b1b1b1;
 }
 
-.block.another {
-    margin-left: 102px;
-}
-
 @font-face {
-    font-family: "ofont.ru_Borsok"; 
-    src: url("ofont.ru_Borsok.ttf") format("truetype"); 
+    font-family: "ofont.ru_Riffic"; 
+    src: url("ofont.ru_Riffic.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
     } 
