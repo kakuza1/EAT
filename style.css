@@ -12,14 +12,15 @@ body{
     display: flex;
     width: 190px;
     justify-content: center;
-    border: 1px solid;
+    border: 3px solid;
     color: #b1b1b1;
     font-size: 18px;
     border-radius: 10px;
 }
 
 .block:hover{
-    color: white;
+    color: rgb(255 255 255 / 90%);
+    box-shadow: 0 0 30px rgb(255, 255, 255);
 }
 
 .header{
@@ -27,12 +28,12 @@ body{
     display: flex;
     color: white;
     flex-wrap: wrap;
-    width: 400px;
+    width: 410px;
     margin: 0 auto;
     justify-content: space-between;
     align-content: center;
     gap: 21.5px 0;
-    height: 132px;
+    height: 150px;
     font-family: "ofont.ru_Borsok";
 }
 
