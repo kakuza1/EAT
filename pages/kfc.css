@@ -1,0 +1,182 @@
+.wrapper {
+    background-image: url(../1.jpg);
+    background-size: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.block {
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    border: 5px dotted;
+    color: #b1b1b1;
+    font-size: 18px;
+    border-radius: 100%;
+    font-size: 30px;
+    border-color: #ffffff00;
+    height: 90px;
+    transition: 1s;
+    align-items: center;
+    text-decoration: none;
+}
+
+.block:hover{
+    color: rgb(255 255 255 / 90%);
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    border-color: rgb(255 255 255 / 90%);
+    transition: 1s;
+}
+
+.header{
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    width: 710px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-content: center;
+    gap: 21.5px 0;
+    height: 150px;
+    font-family: "ofont.ru_Riffic";
+}
+
+.main{
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 49px;
+}
+
+.card{
+    width: 275px;
+    height: 325px;
+    background: black;
+    margin: 0 auto;
+    margin: 0;
+    color: #b1b1b1;
+}
+
+.card{
+    font-family: "ofont.ru_Riffic";
+}
+
+@font-face {
+    font-family: "ofont.ru_Riffic"; 
+    src: url("../ofont.ru_Riffic.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+.add{
+    width: 275px;
+    height: 310px;
+    background: #00000054;
+    border: 4px dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_button{
+    outline: none;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: 177px;
+    cursor: pointer;
+    transition: 20s;
+}
+
+.add_button:hover{
+    transform: rotatez(1440deg);
+    transition: 20s;
+}
+
+.stats{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#number{
+    width: 200px;
+    border: aqua solid 1px;
+    height: 20px;
+}
+
+#name{
+    width: 200px;
+    border: aqua solid 1px;
+    height: 20px;
+}
+
+#score{
+    width: 200px;
+    border: aqua solid 1px;
+    height: 20px;
+}
+
+#spawn{
+    width: 200px;
+    border: aqua solid 1px;
+    height: 20px;
+}
+
+.stats_input{
+    width: 200px;
+    border: aqua solid 1px;
+    word-break: break-all;
+    min-height: 20px;
+}
+
+#push {
+    outline: none;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: aqua solid 2px;
+    width: 40px;
+}
+
+.scored{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.del{
+    outline: none;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: aqua solid 2px;
+    width: 40px;
+}
+
+#change{
+    outline: none;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: aqua solid 2px;
+    width: 40px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
