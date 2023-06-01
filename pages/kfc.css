@@ -46,10 +46,8 @@ body{
 .main{
     width: 1200px;
     display: flex;
-    justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
-    gap: 68px 40px;
     margin-top: 60px;
     padding-bottom: 49px;
 }
@@ -72,4 +70,113 @@ body{
     src: url("../ofont.ru_Riffic.ttf") format("truetype"); 
     font-style: normal; 
     font-weight: normal; 
-    } 
+}
+
+.add{
+    width: 275px;
+    height: 310px;
+    background: #00000054;
+    border: 4px dashed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_button{
+    outline: none;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    font-size: 177px;
+    cursor: pointer;
+    transition: 20s;
+}
+
+.add_button:hover{
+    transform: rotatez(1440deg);
+    transition: 20s;
+}
+
+.stats{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+#number{
+    width: 200px;
+    border: aqua solid 1px;
+    height: 20px;
+}
+
+#name{
+    width: 200px;
+    border: aqua solid 1px;
+    height: 20px;
+}
+
+#score{
+    width: 200px;
+    border: aqua solid 1px;
+    height: 20px;
+}
+
+#spawn{
+    width: 200px;
+    border: aqua solid 1px;
+    height: 20px;
+}
+
+.stats_input{
+    width: 200px;
+    border: aqua solid 1px;
+    word-break: break-all;
+    min-height: 20px;
+}
+
+#push {
+    outline: none;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: aqua solid 2px;
+    width: 40px;
+}
+
+.scored{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.del{
+    outline: none;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: aqua solid 2px;
+    width: 40px;
+}
+
+#change{
+    outline: none;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    border: aqua solid 2px;
+    width: 40px;
+}
+
+.list{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}

@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="kfc.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Chokokutai?query=choko">
     <title>НЕГРЫ</title>
 </head>
 <body>
@@ -20,16 +19,29 @@
             <a class="block" href="/Users/ИГНАТ/Desktop/XYETA/EAT/pages/any.html">Any</a>
         </div>
         <div class="main">
-            <div class="card">Лучшая картошка</div>
-            <div class="card">Больше всего салфеток</div>
-            <div class="card">Наивысший средний балл</div>
-            <div class="card">Топ посещений</div>
-            <div class="card">Топ 1 блюдо</div>
+            <div class="stats">
+                <input id="number" class="stats_input" type="text">
+                <input id="name" class="stats_input" type="text">
+                <input id="score" class="stats_input" type="text">
+                <input id="spawn" class="stats_input" type="text">
+                <input id="comments" class="stats_input" type="text">
+                <button id="push"></button>
+            </div>
+            <div class="scored">
+                <div class="list">
+                    <div class="stats_input"></div>
+                    <div class="stats_input"></div>
+                    <div class="stats_input"></div>
+                    <div class="stats_input"></div>
+                    <div class="stats_input"></div>
+                    <button class="del"></button>
+                </div>
+            </div>
         </div>
-        <div class="add">
-            <div class="add_button"></div>
-        </div>
+        <!-- <div class="add">
+            <button class="add_button">卐</button>
+        </div> -->
     </div>
-    <script src="app.js"></script>
+    <script src="kfc.js"></script>
 </body>
 </html>
