@@ -54,6 +54,24 @@ body{
     padding-bottom: 49px;
 }
 
+.active {
+    color: rgb(255 255 255 / 90%);
+    box-shadow: 0 0 30px rgb(255, 255, 255);
+    border-color: rgb(255 255 255 / 90%);
+    cursor: default;
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    border: 5px dotted;
+    font-size: 18px;
+    border-radius: 100%;
+    font-size: 30px;
+    height: 90px;
+    transition: 1s;
+    align-items: center;
+    text-decoration: none;
+}
+
 .card{
     width: 275px;
     height: 325px;

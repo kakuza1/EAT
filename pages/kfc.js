@@ -8,7 +8,7 @@ let score = document.getElementById('score')
 let spawn = document.getElementById('spawn')
 let comments = document.getElementById('comments')
 
-let fromStorage = localStorage.getItem('main');
+let fromStorage = localStorage.getItem('hui');
 if (fromStorage) {
     document.querySelector('.scored').innerHTML = fromStorage;
 }
@@ -19,16 +19,12 @@ let add = function(taskString) {
     yapoimy1 = number.value
     yapoimy2 = name.value
     yapoimy3 = score.value
-    yapoimy4 = spawn.value
-    yapoimy5 = comments.value
     wrapper.innerHTML += `<div class="list">
-    <div class="stats_input">${yapoimy1}</div>
-    <div class="stats_input">${yapoimy2}</div>
-    <div class="stats_input">${yapoimy3}</div>
-    <div class="stats_input">${yapoimy4}</div>
-    <div class="stats_input">${yapoimy5}</div>
-    <button class="del"></button></div>`;
-    localStorage.setItem('main', document.querySelector('.scored').innerHTML);
+    <div class="stats_input solo">${yapoimy1}</div>
+    <div class="stats_input solo">${yapoimy2}</div>
+    <img src="${yapoimy3}" alt="" class = "solo">
+    <button class="del solo"></button></div>`;
+    localStorage.setItem('hui', document.querySelector('.scored').innerHTML);
 }
 
 let button = document.getElementById('push')
@@ -42,10 +38,10 @@ let deleting = function(){
     delbutton.forEach((btn) => {
         btn.addEventListener('click', () => {
         btn.parentElement.remove();
-        localStorage.setItem('main', document.querySelector('.scored').innerHTML);
+        localStorage.setItem('hui', document.querySelector('.scored').innerHTML);
         });
     }); 
-    localStorage.setItem('main', document.querySelector('.scored').innerHTML);
+    localStorage.setItem('hui', document.querySelector('.scored').innerHTML);
 }
 
 
