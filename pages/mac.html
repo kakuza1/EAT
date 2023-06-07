@@ -5,29 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="mac.css">
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Chokokutai?query=choko">
     <title>НЕГРЫ</title>
 </head>
 <body>
     <div class="wrapper">
         <div class="header" id="header">
-            <audio id="Sound" src="zvuk6.mp3"></audio>
-            <a class="block OSNOVA" href="/Users/ИГНАТ/Desktop/XYETA/EAT/index.html">БАЗА</a>
-            <a class="block" href="/Users/ИГНАТ/Desktop/XYETA/EAT/pages/kfc.html">KFC</a>
-            <a class="block" href="/Users/ИГНАТ/Desktop/XYETA/EAT/pages/mac.html">Мак</a>
-            <a class="block" href="/Users/ИГНАТ/Desktop/XYETA/EAT/pages/shava.html">Шва</a>
-            <a class="block" href="/Users/ИГНАТ/Desktop/XYETA/EAT/pages/bk.html">Бкг</a>
-            <a class="block" href="/Users/ИГНАТ/Desktop/XYETA/EAT/pages/any.html">Any</a>
+            <audio id="Sound" src="../zvuk6.mp3"></audio>
+            <a class="block OSNOVA" href="../index.html">БАЗА</a>
+            <a class="block" href="./kfc.html">KFC</a>
+            <a class="block active" href="#">Мак</a>
+            <a class="block" href="./shava.html">Шва</a>
+            <a class="block" href="./bk.html">Бкг</a>
+            <a class="block" href="./any.html">Any</a>
         </div>
         <div class="main">
-            <div class="card">Лучшая картошка</div>
-            <div class="card">Больше всего салфеток</div>
-            <div class="card">Наивысший средний балл</div>
-            <div class="card">Топ посещений</div>
-            <div class="card">Топ 1 блюдо</div>
-            <div class="card">Самый честный</div>
+            <div class="stats">
+                <input id="name" class="stats_input" placeholder="название" type="text">
+                <input id="score" class="stats_input" placeholder="баллы" type="text">
+                <input id="photo" class="stats_input" placeholder="ссылка на фото" type="text">
+                <input id="comments" class="stats_input" placeholder="комментарии" type="text">
+                <input id="link" class="stats_input" placeholder="ссылка на спавн" type="text">
+                <button id="push"></button>
+            </div>
         </div>
+        <div class="hui4">
+            <div class="scored">
+                <div class="list">
+                    <div class="stats_input solo">Двойной биг хит</div>
+                    <div class="stats_input solo">9/10</div>
+                    <img class="stats_input solo" src="https://mcdonaldsmenu.ru/image/cache/catalog/photo/199007338-big-mak-600x600.jpg">
+                    <button class="del"></button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="add">
+            <button class="add_button">卐</button>
+        </div> -->
     </div>
-    <script src="app.js"></script>
+    <script src="mac.js"></script>
 </body>
 </html>

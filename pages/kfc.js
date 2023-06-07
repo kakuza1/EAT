@@ -18,7 +18,7 @@ let score = document.getElementById('score')
 let link = document.getElementById('link')
 let comments = document.getElementById('comments')
 
-let fromStorage = localStorage.getItem('hui');
+let fromStorage = localStorage.getItem('hui3');
 if (fromStorage) {
     document.querySelector('.scored').innerHTML = fromStorage;
 }
@@ -31,10 +31,10 @@ let deleting = function(){
         delbuton.forEach((delbuton) => {
             delbuton.addEventListener('click', () => {
             delbuton.parentElement.remove();
-            localStorage.setItem('hui', document.querySelector('.scored').innerHTML);
+            localStorage.setItem('hui3', document.querySelector('.scored').innerHTML);
             });
         }); 
-        localStorage.setItem('hui', document.querySelector('.scored').innerHTML);
+        localStorage.setItem('hui3', document.querySelector('.scored').innerHTML);
     }
 }
 
@@ -55,12 +55,12 @@ let obnova = function(){
             let sss = ading.parentNode
             sss.innerHTML += `<a class="stats_input duo second" href="${yapoimy5}">卐 - ${yapoimy2}</a>`
             console.log(sss)
-            localStorage.setItem('hui', document.querySelector('.scored').innerHTML);
+            localStorage.setItem('hui3', document.querySelector('.scored').innerHTML);
             // sss.insertBefore(jopa, bbb)
             // localStorage.setItem('hui', document.querySelector('.scored').innerHTML);
             });
         }); 
-        localStorage.setItem('hui', document.querySelector('.scored').innerHTML);
+        localStorage.setItem('hui3', document.querySelector('.scored').innerHTML);
     }
 }
 
@@ -79,7 +79,7 @@ let add = function() {
     <div class='ggg'><div class="stats_input duo first">${yapoimy4}</div>
     <a class="stats_input duo second" href="${yapoimy5}">卐 - ${yapoimy2}</a><button class="duo add"></button></div>
     <button class="del"></button></div>`;
-    localStorage.setItem('hui', document.querySelector('.scored').innerHTML);
+    localStorage.setItem('hui3', document.querySelector('.scored').innerHTML);
 }
 
 let butonss = document.getElementById('push')
