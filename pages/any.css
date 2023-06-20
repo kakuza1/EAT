@@ -1,6 +1,6 @@
 .wrapper {
     background-size: 100%;
-    background-image: url(../5555555.jpg);
+    background-image: url(../vladik.jpg);
 }
 
 body{
@@ -11,7 +11,6 @@ body{
     display: flex;
     width: 90px;
     justify-content: center;
-    border: 5px dotted;
     color: #b1b1b1;
     font-size: 18px;
     border-radius: 100%;
@@ -25,8 +24,7 @@ body{
 
 .active {
     color: rgb(255 255 255 / 90%);
-    box-shadow: 0 0 30px rgb(255, 255, 255);
-    border-color: rgb(255 255 255 / 90%);
+    box-shadow: 0 0 200px rgb(255, 255, 255);
     cursor: default;
 }
 
@@ -157,7 +155,12 @@ body{
     border: aqua solid 2px;
     width: 40px;
 }
-
+a img{
+    width: 90px;
+    height: 90px;
+    padding-bottom: 5px;
+    padding-left: 1px;
+}
 img {
     width: 202px;
     height: 202px;
@@ -166,8 +169,9 @@ img {
 .hui1{
     display: flex;
     justify-content: center;
-    background: #747474;
+    background: hwb(0deg 0% 100% / 27%);
     padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 .scored{
@@ -377,5 +381,15 @@ img {
         width: 138px;
         margin-bottom: 0;
         margin-top: 0;
+    }
+    a img{
+        width: 60px;
+        height: 60px;
+        padding-bottom: 5px;
+        padding-left: 1px;
+    }
+    .header{
+        justify-content: space-around;
+        gap: 0 0;
     }
 }
