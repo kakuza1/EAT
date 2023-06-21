@@ -147,14 +147,19 @@ body{
 }
 
 #push {
-    outline: none;
-    padding: 0;
-    border: none;
-    font: inherit;
     color: inherit;
     background-color: transparent;
-    border: aqua solid 2px;
+    height: 40px;
     width: 40px;
+    background-image: url(../какакака.png);
+    background-size: 100%;
+    outline: none;
+    padding: 0px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    font: inherit;
 }
 
 img {
