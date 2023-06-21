@@ -1,6 +1,6 @@
 .wrapper {
     background-size: 100%;
-    background-image: url(../vladik.jpg);
+    background-image: url(../vlados.jpg);
 }
 
 body{
@@ -109,6 +109,7 @@ body{
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 0 10px;
+    align-items: center;
 }
 
 #number{
@@ -143,6 +144,7 @@ body{
     padding: 0px;
     background: white;
     border-radius: 5px;
+    max-height: 24px;
 }
 
 #push {
@@ -152,8 +154,10 @@ body{
     font: inherit;
     color: inherit;
     background-color: transparent;
-    border: aqua solid 2px;
+    height: 40px;
     width: 40px;
+    background-image: url(../какакака.png);
+    background-size: 100%;
 }
 a img{
     width: 90px;
@@ -367,7 +371,7 @@ img {
         height: 150px;
     }
     .add{
-        margin: 185px 0px -174px 120px;
+        margin: 165px 0px -174px 120px;
     }
     .del{
         margin-right: 107px;
