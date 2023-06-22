@@ -1,6 +1,7 @@
 .wrapper {
     background-size: 100%;
     background-image: url(../bk.jpg);
+    min-height: 977px;
 }
 a img{
     width: 90px;

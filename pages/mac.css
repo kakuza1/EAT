@@ -1,5 +1,6 @@
 .wrapper {
     background-size: 100%;
+    min-height: 977px;
     background-image: url(../vkusno.jpg);
 }
 
