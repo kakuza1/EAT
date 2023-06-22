@@ -1,6 +1,7 @@
 .wrapper {
     background-size: 100%;
     background-image: url(../vlados.jpg);
+    min-height: 977px;
 }
 
 body{
